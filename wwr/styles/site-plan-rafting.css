@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap ');
 body{
-    font-family:var (paragraph-font) ;
+    font-family: var(paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
@@ -10,8 +10,8 @@ body{
     --accent1-color:#1E91D6;
     --accent2-color: #6F1A07;
     
-    --heading-font: '',serif;
-    --paragraph-font:  '',serif;
+    --heading-font: 'Arial',serif;
+    --paragraph-font:  'Gill Sans',serif;
     --nav-background-color: #A8763E;
     --nav-link-color: #E18335;
     --nav-hover-link-color:#EC7D10;
@@ -47,7 +47,7 @@ nav a {
     padding: 1rem;
 
 }
-nav a:link, nav a:visited{
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 nav a:hover{
