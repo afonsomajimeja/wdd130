@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap );
+/*:root{
+
+      background-color: aliceblue;
+      --primary-color: #2B2118;
+    --secondary-color: #0072BB;
+    --accent1-color:#1E91D6;
+    --accent2-color: #6F1A07;
+}*/
+
+
+nav a:link, nav a :visited{
+    color:blue;
+        color: #777;
+
+
+}
+a:hover {
+    color:red;
+}
+  div hero{
+    display:block;
+    width: 100%;
+    height: auto
+}
+  div h1{
+    position: relative;
+    color:antiquewhite;
+}
+ article img{
+    position: relative;
+    float:right;
+    width: 100px;
+    height: 80px;
+    top: 0;
+}
+body{
+    margin: 10px;
+    padding: 20px;
+}
+article p{
+    position: relative;
+}
+
+
+h1, h2 {
+    
+    text-align: center;
+    position: relative;
+    margin: 0.1rem 0 ;
+    font-size: 1.5 rem ;
+    text-shadow: 3px 3px 5px #777;
+}
+
+h2{
+   
+	font-size: 2rem;
+	
+}
+p{
+    font-size: 20px;
+    font-family: Verdana;
+    color:black;
+
+}
+body{
+    background-color: lightblue;
+    aspect-ratio: 20%;
+}
+article{
+    position: relative;
+}
+header.article img  {
+    float: left;
+    background-color: rgb(0, 0,0/50%);
+    font-size:smaller;
+    position: absolute;
+    top: 10px;
+}
+article::first-line{
+    font-weight: 100;
+}
+/*.sociallinks  {
+    font-size: 0.2em;
+
+}*/
